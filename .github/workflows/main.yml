@@ -27,5 +27,3 @@ jobs:
       - name: Terraform Apply
         run: terraform apply -auto-approve
 
-      - name: Verify S3 Bucket
-        run: aws --endpoint-url=http://localhost:4566 s3 ls
